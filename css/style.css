@@ -5,3 +5,43 @@ nav {
 body {
     background-color: whitesmoke;
 }
+
+/* FOOTER*/
+
+/*boton amarillo */
+.btn-amazon-yellow {
+    background-color: #FFD700;
+    border: none;
+    color: #000;
+}
+.btn-amazon-yellow:hover {
+    background-color: #e38800; 
+}
+
+/* Fondo de "Inicio de Pagina" */
+.bg-footer-top {
+    background-color: #37475A;
+}
+
+.bg-footer-top:hover {
+    background-color: #485769;
+     /*cambia el color de fondo al boton de inicio de pagina */
+}
+
+/* Fondo de la parte enlaces */
+.bg-footer-main {
+    background-color: #232F3E;
+}
+
+/* Fondo de la parte final*/
+.bg-footer-bottom {
+    background-color: #131A22;
+}
+
+/*enlaces pequeños*/
+.footer-link-mini {
+    font-size: 0.7rem;
+    line-height: 1.2;
+}
+
+/*FIN FOOTER*/

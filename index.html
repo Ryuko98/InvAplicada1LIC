@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand me-3" href="#"><img src="./img/amazon-logo.webp" alt="Amazon Logo" height="38"></a>
+                <a class="navbar-brand me-3" href="#"><img src="./img/amazon-logoB.png" alt="Amazon Logo" height="38"></a>
                 <div class="d-none d-xl-flex align-items-center text-white me-3 nav-item-hover p-1">
                     <i class="bi bi-geo-alt fs-5 me-1 text-light"></i>
                     <div class="lh-sm">
@@ -151,7 +151,313 @@
             </div>
         </div>
     </main>
-    <footer></footer>
+
+
+    <!-- TABLA de "Productos mas vendidos" -->
+        <div class="container mt-5 mb-5" style="max-width: 1200px;">
+            <div class="card shadow-sm border-0">
+                <div class="card-body p-0 p-md-4">
+                    <h4 class="card-title fw-bold mb-4 px-3 px-md-0 mt-3 mt-md-0">Productos más Vendidos</h4>
+                    
+                    <div class="table-responsive-sm">
+                        <table class="table table-hover align-middle mb-0 border-top">
+                            
+                            <!-- ENCABEZADOS -->
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col" class="ps-3">#</th>
+                                    <th scope="col">PRODUCTO</th>
+                                    <th scope="col" class="d-none d-lg-table-cell text-center">CATEGORÍA</th>
+                                    <th scope="col" class="d-none d-md-table-cell text-center">PRECIO</th>
+                                    <th scope="col" class="d-none d-lg-table-cell text-center">VALORACIÓN</th>
+                                    <th scope="col" class="d-none d-lg-table-cell text-center">VENTAS</th>
+                                    <th scope="col" class="pe-3 text-end">ACCIÓN</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <!-- FILA DE PRODUCTO 1 -->
+                                <tr>
+                                    <th scope="row" class="ps-3 text-warning fs-5">1</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./img/images.jpeg" alt="Producto" width="50" class="me-3 border rounded p-1 object-fit-contain bg-white"> 
+                                            <div>
+                                                <span class="fw-bold fs-6 d-block text-dark">Producto Listado</span>
+                                                <div class="d-lg-none mt-1" style="font-size: 0.75rem;">
+                                                    ⭐⭐⭐⭐⭐ <span class="text-primary fw-bold">4.8</span>
+                                                </div>
+                                                <div class="d-md-none mt-1">
+                                                    <span class="text-danger fw-bold">$99.99</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-info small fw-bold text-center">Categoría</td>
+                                    <td class="d-none d-md-table-cell text-center">
+                                        <span class="text-danger fw-bold">$99.99</span><br>
+                                        <span class="badge bg-danger rounded-pill">-10%</span>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-center">⭐⭐⭐⭐⭐<br><span class="text-primary small fw-bold">4.8</span> <small class="text-muted">(142,830)</small></td>
+                                    <td class="d-none d-lg-table-cell text-muted small text-center">50K+<br>vendidos</td>
+                                    <td class="pe-3 text-end">
+                                        <button class="btn btn-amazon-yellow btn-sm rounded-pill fw-bold text-dark px-3 shadow-sm">+ Carrito</button>
+                                    </td>
+                                </tr>
+
+                                <!--PRODUCTO 2 -->
+                                <tr>
+                                    <th scope="row" class="ps-3 text-secondary fs-5">2</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./img/images.jpeg" alt="Producto" width="50" class="me-3 border rounded p-1 object-fit-contain bg-white"> 
+                                            <div>
+                                                <span class="fw-bold fs-6 d-block text-dark">Producto Listado</span>
+                                                <div class="d-lg-none mt-1" style="font-size: 0.75rem;">
+                                                    ⭐⭐⭐⭐☆ <span class="text-primary fw-bold">4.7</span>
+                                                </div>
+                                                <div class="d-md-none mt-1">
+                                                    <span class="text-danger fw-bold">$99.99</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-info small fw-bold text-center">Categoría</td>
+                                    <td class="d-none d-md-table-cell text-center">
+                                        <span class="text-danger fw-bold">$99.99</span><br>
+                                        <span class="badge bg-danger rounded-pill">-10%</span>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-center">⭐⭐⭐⭐☆<br><span class="text-primary small fw-bold">4.7</span> <small class="text-muted">(89,450)</small></td>
+                                    <td class="d-none d-lg-table-cell text-muted small text-center">45K+<br>vendidos</td>
+                                    <td class="pe-3 text-end">
+                                        <button class="btn btn-amazon-yellow btn-sm rounded-pill fw-bold text-dark px-3 shadow-sm">+ Carrito</button>
+                                    </td>
+                                </tr>
+
+                                <!--PRODUCTO 3 -->
+                                <tr>
+                                    <th scope="row" class="ps-3 fs-5" style="color: #cd7f32;">3</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./img/images.jpeg" alt="Producto" width="50" class="me-3 border rounded p-1 object-fit-contain bg-white"> 
+                                            <div>
+                                                <span class="fw-bold fs-6 d-block text-dark">Producto Listado</span>
+                                                <div class="d-lg-none mt-1" style="font-size: 0.75rem;">
+                                                    ⭐⭐⭐⭐☆ <span class="text-primary fw-bold">4.7</span>
+                                                </div>
+                                                <div class="d-md-none mt-1">
+                                                    <span class="text-danger fw-bold">$99.99</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-info small fw-bold text-center">Categoría</td>
+                                    <td class="d-none d-md-table-cell text-center">
+                                        <span class="text-danger fw-bold">$99.99</span><br>
+                                        <span class="badge bg-danger rounded-pill">-10%</span>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-center">⭐⭐⭐⭐☆<br><span class="text-primary small fw-bold">4.7</span> <small class="text-muted">(214,600)</small></td>
+                                    <td class="d-none d-lg-table-cell text-muted small text-center">30K+<br>vendidos</td>
+                                    <td class="pe-3 text-end">
+                                        <button class="btn btn-amazon-yellow btn-sm rounded-pill fw-bold text-dark px-3 shadow-sm">+ Carrito</button>
+                                    </td>
+                                </tr>
+
+                                <!--PRODUCTO 4 -->
+                                <tr>
+                                    <th scope="row" class="ps-3 text-dark fs-5">4</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./img/images.jpeg" alt="Producto" width="50" class="me-3 border rounded p-1 object-fit-contain bg-white"> 
+                                            <div>
+                                                <span class="fw-bold fs-6 d-block text-dark">Producto Listado</span>
+                                                <div class="d-lg-none mt-1" style="font-size: 0.75rem;">
+                                                    ⭐⭐⭐⭐⭐ <span class="text-primary fw-bold">4.8</span>
+                                                </div>
+                                                <div class="d-md-none mt-1">
+                                                    <span class="text-danger fw-bold">$99.99</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-info small fw-bold text-center">Categoría</td>
+                                    <td class="d-none d-md-table-cell text-center">
+                                        <span class="text-danger fw-bold">$99.99</span><br>
+                                        <span class="badge bg-danger rounded-pill">-10%</span>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-center">⭐⭐⭐⭐⭐<br><span class="text-primary small fw-bold">4.8</span> <small class="text-muted">(76,230)</small></td>
+                                    <td class="d-none d-lg-table-cell text-muted small text-center">25K+<br>vendidos</td>
+                                    <td class="pe-3 text-end">
+                                        <button class="btn btn-amazon-yellow btn-sm rounded-pill fw-bold text-dark px-3 shadow-sm">+ Carrito</button>
+                                    </td>
+                                </tr>
+
+                                <!--PRODUCTO 5 -->
+                                <tr>
+                                    <th scope="row" class="ps-3 text-dark fs-5">5</th>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./img/images.jpeg" alt="Producto" width="50" class="me-3 border rounded p-1 object-fit-contain bg-white"> 
+                                            <div>
+                                                <span class="fw-bold fs-6 d-block text-dark">Producto Listado</span>
+                                                <div class="d-lg-none mt-1" style="font-size: 0.75rem;">
+                                                    ⭐⭐⭐⭐☆ <span class="text-primary fw-bold">4.6</span>
+                                                </div>
+                                                <div class="d-md-none mt-1">
+                                                    <span class="text-danger fw-bold">$99.99</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-info small fw-bold text-center">Categoría</td>
+                                    <td class="d-none d-md-table-cell text-center">
+                                        <span class="text-danger fw-bold">$99.99</span><br>
+                                        <span class="badge bg-danger rounded-pill">-10%</span>
+                                    </td>
+                                    <td class="d-none d-lg-table-cell text-center">⭐⭐⭐⭐☆<br><span class="text-primary small fw-bold">4.6</span> <small class="text-muted">(53,100)</small></td>
+                                    <td class="d-none d-lg-table-cell text-muted small text-center">20K+<br>vendidos</td>
+                                    <td class="pe-3 text-end">
+                                        <button class="btn btn-amazon-yellow btn-sm rounded-pill fw-bold text-dark px-3 shadow-sm">+ Carrito</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DE LA TABLA -->
+
+        
+         <div class="container mb-5" style="max-width: 1200px;">
+            <div class="card shadow border-0" style="background-color: #232F3E;">
+                <div class="card-body p-4 p-md-5 text-center text-white">
+                    <h4 class="fw-bold mb-2 text-warning">🎉 ¡Felicidades! Tienes un descuento oculto</h4>
+                    <p class="mb-4">Rasca el recuadro gris con tu mouse para revelar tu código promocional.</p>     
+                    <div class="d-flex justify-content-center mb-3">
+                        <canvas id="cuponRascaYGana" width="400" height="150" class="rounded shadow-sm" style="background-color: #b0b3b8; 
+                        max-width: 100%; cursor: crosshair; border: 3px dashed #FF9900;"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer class="mt-5">
+        <div class="py-4 text-center border-top border-bottom bg-white">
+            <p class="mb-2 text-dark">Ver recomendaciones personalizadas</p>
+            <button class="btn btn-amazon-yellow fw-bold px-5 rounded-pill shadow-sm">Identifícate</button>
+            <p class="mt-2 mb-0 small text-dark">¿Eres un cliente nuevo? <a href="#" class="text-primary text-decoration-none">Empieza aquí.</a></p>
+        </div>
+        
+        <div class="text-center py-3 bg-footer-top">
+            <a href="#" class="text-white text-decoration-none d-block small">Inicio de<br>Página</a>
+        </div>
+
+        <div class="py-5 border-bottom border-secondary bg-footer-main">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-4 g-4 text-start text-white">
+                    <div class="col">
+                        <h6 class="fw-bold mb-3">Conócenos</h6>
+                        <ul class="list-unstyled small lh-lg">
+                            <li><a href="#" class="text-decoration-none text-light">Trabaja en Amazon</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Blog</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Acerca de Amazon</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Relaciones con los Inversionistas</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Dispositivos Amazon</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold mb-3">Gana Dinero con Nosotros</h6>
+                        <ul class="list-unstyled small lh-lg">
+                            <li><a href="#" class="text-decoration-none text-light">Vender productos en Amazon</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Vende en Amazon Business</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Vender aplicaciones en</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Amazon Programa de Afiliados</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Anuncia tus Productos</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Publica tu Libro en Kindle</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Habilita un Amazon Hub</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold mb-3">Productos de Pago de Amazon</h6>
+                        <ul class="list-unstyled small lh-lg">
+                            <li><a href="#" class="text-decoration-none text-light">Compra con Puntos</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Recarga tu Saldo</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Conversor de divisas de Amazon</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6 class="fw-bold mb-3">Podemos Ayudarte</h6>
+                        <ul class="list-unstyled small lh-lg">
+                            <li><a href="#" class="text-decoration-none text-light">Tu Cuenta</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Tus Pedidos</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Tarifas de Envío y Políticas</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Devoluciones y Reemplazos</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Administrar Contenido y Dispositivos</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Ayuda</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-4 text-center bg-footer-main">
+            <div class="d-flex flex-row justify-content-center align-items-center gap-2 gap-md-4 flex-nowrap mx-auto" style="max-width: 100%;">
+                <img src="./img/amazon-logoB.png" alt="Amazon Logo" height="24" class="mt-1">
+                <div class="dropdown">
+                    <button class="btn btn-outline-light btn-sm dropdown-toggle px-2 text-nowrap" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        🌐 English
+                    </button>
+                    <ul class="dropdown-menu shadow-sm" style="top: auto; bottom: 100%; margin-bottom: 0.5rem; position: absolute;">
+                        <li><a class="dropdown-item" wh>Español</a></li>
+                    </ul>
+                </div>         
+                <button class="btn btn-footer-outline btn-sm d-flex align-items-center gap-1 px-2 text-white text-nowrap">
+                    <img src="./img/USA.png" alt="Bandera USA" height="14" class="rounded-1"> Estados Unidos
+                </button>
+            </div>
+        </div>
+
+        <div class="py-4 text-white bg-footer-bottom">
+            <div class="container text-center">
+                <div class="row row-cols-2 row-cols-md-4 g-3 mb-4 text-start justify-content-center footer-link-mini">
+                    <div class="col">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Venda en Amazon</span>Comience una cuenta de venta</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Amazon Advertising</span>Encontrar, atraer y captar clientes</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Amazon Business</span>Todo para tu negocio</a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Amazon Web Services</span>Servicios de cómputo en nube escalable</a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Audible</span>Download Audio Books</a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Prime Video Direct</span>Distribución de Video Sin Esfuerzo</a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Blink</span>Seguridad inteligente para todos los hogares</a>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="#" class="text-light text-decoration-none"><span class="fw-bold d-block">Goodreads</span>Análisis de libros y recomendaciones</a>
+                    </div>
+                </div>
+                <div class="mt-4 text-center" style="font-size: 0.8rem;">
+                    <div class="mb-2 row row-cols-2 row-cols-md-auto justify-content-center gap-md-3 gx-2 gy-3 mx-auto">
+                        <a href="#" class="col text-white text-decoration-none d-flex align-items-center justify-content-center">Condiciones de uso</a>
+                        <a href="#" class="col text-white text-decoration-none d-flex align-items-center justify-content-center">Aviso de privacidad</a>
+                        <a href="#" class="col text-white text-decoration-none d-flex align-items-center justify-content-center">Aviso de Privacidad de Datos de Salud del Consumidor</a>
+                        <a href="#" class="col text-white text-decoration-none d-flex align-items-center justify-content-center">Tus opciones de privacidad de los anuncios</a>
+                    </div>
+                    <p class="mb-0 text-muted">© 1996-2026 Amazon.com, Inc. o sus afiliados</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
