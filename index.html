@@ -135,37 +135,39 @@
         </div>
     </header>
     <main>
-        <div id="sliderBanner" class="carousel slide" data-bs-ride="false">
+        <!-- Banner Hero -->
+        <section id="sliderBanner" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row justify-content-center">
-                        <img src="./img/heroseccion.jpg" alt="">
+                    <div class="hero-image-container">
+                        <img src="./img/heroseccion.jpg" class="img-fluid hero-img" alt="Hero 1">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <img src="./img/heroseccion2.jpg" alt="">
+                    <div class="hero-image-container">
+                        <img src="./img/heroseccion2.jpg" class="img-fluid hero-img" alt="Hero 2">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <img src="./img/heroseccion3.jpg" alt="">
+                    <div class="hero-image-container">
+                        <img src="./img/heroseccion3.jpg" class="img-fluid hero-img" alt="Hero 3">
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#sliderBanner"
-                data-bs-slide="prev">
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#sliderBanner" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#sliderBanner"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#sliderBanner" data-bs-slide="next">
                 <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
             </button>
-        </div>
-        <div class="container position-relative z-3 cards-overlap">
-            <div class="row">
+        </section>  
+        <!-- Sección de Contenido Principal -->
+        <section class="container position-relative z-3 cards-overlap">
+            <!-- Fila 1 de Cards -->
+            <div class="row g-3">
                 <div class="col-6 col-md-4 col-lg-3">
                     <div class="card h-100 p-3">
                         <h6 class="card-title fw-bold fs-6 mb-3">TECKNET Ratón Bluetooth, 2-en-1 (BT 5.0/3.0+2.4Ghz) Ratones inalámbricos 4000DPI</h6>
@@ -211,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-3 g-3">
                 <div class="col-6 col-md-4 col-lg-3">
                     <div class="card h-100 p-3">
                         <h6 class="card-title fw-bold fs-6 mb-3">GIGABYTE Tarjeta gráfica GeForce RTX 5060 WINDFORCE OC 8G, 8 GB 128 bits GDDR7</h6>
@@ -257,7 +259,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="container mt-5">
             <div class="bg-white p-4 shadow-sm">
                 <h5 class="fw-bold mb-3">Productos que te pueden interesar</h5>
