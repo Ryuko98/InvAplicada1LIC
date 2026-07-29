@@ -123,7 +123,7 @@ body {
 
 /*MOVIL*/
   @media (max-width: 767px) {
-   .navbarmin {
+    .navbarmin {
       display: none;
     }
     .cards-overlap {
@@ -137,10 +137,14 @@ body {
     #AmazonLogo{
         height: 20px;
     }
+
+    h6 {
+      font-size:  12px ;
+    }
   }
 
   /*TABLET*/
-@media (min-width: 767px) and (max-width: 873px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .nav-menumin li a {
     display: flex;
     align-items: center;
@@ -151,16 +155,9 @@ body {
     font-weight: 500;
     font-size: .8rem;
     text-decoration: none;
-
     }
     .cards-overlap {
       margin-top: -150px;
-    }
-
-}
-@media (min-width: 874px) and (max-width: 991px) {
-    .cards-overlap {
-      margin-top: -200px;
     }
 
 }
