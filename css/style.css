@@ -104,8 +104,11 @@ body {
 
 
   .cards-overlap {
-    margin-top: -60px;}
-/*Responsive nav e image*/
+    margin-top: -60px;
+}
+
+/*Responsive nav e image, logo de amazon :O*/
+
 /*MOVIL*/
   @media (max-width: 767px) {
    .navbarmin {
@@ -118,7 +121,12 @@ body {
         .barra{
         margin-top: 100px;
     }
+
+    #AmazonLogo{
+        height: 20px;
+    }
   }
+
   /*TABLET*/
 @media (min-width: 767px) and (max-width: 873px) {
     .nav-menumin li a {
@@ -135,7 +143,8 @@ body {
     }
 
 }
-  @media (min-width: 992px) {
+    /*Desktop*/
+@media (min-width: 992px) {
 
     .cards-overlap {
       margin-top: -120px;
@@ -144,4 +153,3 @@ body {
         width: auto !important; 
     }
   }
-/*FIN FOOTER*/

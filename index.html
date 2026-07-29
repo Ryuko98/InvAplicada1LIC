@@ -12,18 +12,16 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #131921;">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #131921;">
             <div class="container d-flex flex-wrap align-items-center pb-2 pb-lg-0 pb-md-0">
-
-                <div class="d-flex align-items-center order-1">
-                    <button class="btn text-white border-0 px-1 me-2 d-lg-none" type="button">
-                        <i class="bi bi-list fs-1"></i>
-                    </button>
-
+                <div class="d-flex align-items-center order-1 flex-grow-1">
+                    <button class="navbar-toggler border-0 p-0 me-2 text-white" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasAmazon"><span class="navbar-toggler-icon"></span></button>
+        
                     <a class="navbar-brand me-2 me-lg-3" href="#">
-                        <img src="./img/amazon-logoB.png" alt="Amazon Logo" height="35">
+                        <img src="./img/amazon-logoB.png" id="AmazonLogo" alt="Amazon Logo" height="36">
                     </a>
-
+        
                     <div class="d-none d-sm-flex align-items-center text-white me-3 nav-item-hover p-1">
                         <i class="bi bi-geo-alt fs-5 me-1 text-light"></i>
                         <div class="lh-sm">
@@ -33,31 +31,38 @@
                     </div>
                 </div>
                 <div class="d-flex align-items-center text-white gap-2 ms-auto order-md-3 order-2 order-lg-3">
-
+        
                     <div class="d-flex align-items-center nav-item-hover p-1">
                         <span class="fw-bold fs-7 me-1">ES</span>
                         <i class="bi bi-caret-down-fill text-secondary-custom" style="font-size: 0.6rem;"></i>
                     </div>
-
+        
                     <a href="#" class="text-white text-decoration-none nav-item-hover p-1 lh-sm">
                         <span class="d-block text-secondary-custom" style="font-size: 0.75rem;">Hola,
                             Identifícate</span>
                         <strong style="font-size: 0.85rem;">Cuentas y Listas <i
-                                class="bi bi-caret-down-fill text-secondary-custom"
-                                style="font-size: 0.6rem;"></i></strong>
+                                class="bi bi-caret-down-fill text-secondary-custom" style="font-size: 0.6rem;"></i></strong>
                     </a>
-
+        
                     <a href="#" class="text-white text-decoration-none d-flex align-items-end nav-item-hover p-1">
                         <div class="position-relative me-1">
                             <i class="bi bi-cart3 fs-2"></i>
-                            <span
-                                class="position-absolute top-0 end-0 badge rounded-pill bg-warning text-dark fw-bold"
+                            <span class="position-absolute top-0 end-0 badge rounded-pill bg-warning text-dark fw-bold"
                                 style="font-size: 0.7rem;">0</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17h-11v-14h-2" /><path d="M6 5l14 1l-1 7h-13" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 25 25" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                <path d="M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                <path d="M17 17h-11v-14h-2" />
+                                <path d="M6 5l14 1l-1 7h-13" />
+                            </svg>
                         </div>
                     </a>
                 </div>
-                <div class="search-wrapper order-3 order-lg-2 order-md-2 flex-grow-1 w-100 mt-2 mt-lg-0 mt-md-0 px-lg-3 px-md-3">
+                <div
+                    class="search-wrapper order-3 order-lg-2 order-md-2 flex-grow-1 w-100 mt-2 mt-lg-0 mt-md-0 px-lg-3 px-md-3">
                     <div class="input-group search-bar">
                         <button class="btn btn-light border-end dropdown-toggle text-dark" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #f3f3f3;">
@@ -71,17 +76,21 @@
                         </ul>
                         <input type="text" class="form-control border-0" placeholder="Buscar Amazon">
                         <button class="btn text-dark px-3 " type="button" style="background-color: #febd69;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                <path d="M21 21l-6 -6" />
+                            </svg>
                         </button>
                     </div>
                 </div>
-
+        
             </div>
         </nav>
-        <!-- NAVEGACIÓN MIN -->
-        <nav class="navbarmin">
+         <nav class="navbarmin">
             <ul class="nav-menumin">
-
                 <li class="limin">
                     <a href="#">
                         <input type="checkbox" id="menu-toggle" />
@@ -100,12 +109,56 @@
                 <li><a href="#">Servicio al Cliente</a></li>
             </ul>
         </nav>
+        <div class="offcanvas offcanvas-start text-white" tabindex="-1" id="offcanvasAmazon"
+            aria-labelledby="offcanvasAmazonLabel" style="background-color: #232f3e; width: 280px;">
+            <div class="offcanvas-header border-bottom border-secondary">
+                <h5 class="offcanvas-title fw-bold" id="offcanvasAmazonLabel">Menú de Navegación</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+        
+            <div class="offcanvas-body p-0">
+                <ul class="list-group list-group-flush bg-transparent">
+                    <li class="list-group-item bg-transparent text-white border-0 py-3"><a href="#"
+                            class="text-white text-decoration-none d-block">Ofertas del Día</a></li>
+                    <li class="list-group-item bg-transparent text-white border-0 py-3"><a href="#"
+                            class="text-white text-decoration-none d-block">Prime Video</a></li>
+                    <li class="list-group-item bg-transparent text-white border-0 py-3"><a href="#"
+                            class="text-white text-decoration-none d-block">Tarjetas de Regalo</a></li>
+                    <li class="list-group-item bg-transparent text-white border-0 py-3"><a href="#"
+                            class="text-white text-decoration-none d-block">Vender</a></li>
+                    <li class="list-group-item bg-transparent text-white border-0 py-3"><a href="#"
+                            class="text-white text-decoration-none d-block">Servicio al Cliente</a></li>
+                    <li class="list-group-item bg-transparent text-white border-0 py-3"><a href="#"
+                            class="text-white text-decoration-none d-block fw-bold">Registrarse</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="hero-wrapper w-100">
-            <img src="img/heroseccion.jpg" alt="fondo" class="img-fluid w-100 object-fit-cover">
+        <div id="sliderBanner" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <img src="./img/heroseccion.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <img src="../AS240277_HF240758Desafío01LIC/img/gerd-muller-fondo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#sliderBanner"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sliderBanner"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-
         <div class="container position-relative z-3 cards-overlap">
             <div class="row">
                 <div class="col-6 col-md-4 col-lg-3">
@@ -283,7 +336,7 @@
         <div class="container mt-5">
             <div class="bg-white p-4 shadow-sm">
                 <h5 class="fw-bold mb-3">slider</h5>
-                <div id="sliderProductos" class="carousel slide" data-bs-ride="false">
+                <div id="sliderProductos1" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row justify-content-center">
@@ -346,12 +399,12 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#sliderProductos"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#sliderProductos1"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
                         <span class="visually-hidden">Anterior</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#sliderProductos"
+                    <button class="carousel-control-next" type="button" data-bs-target="#sliderProductos1"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
                         <span class="visually-hidden">Siguiente</span>
@@ -552,7 +605,7 @@
                 </div>
             </div>
         </div>
-        <div class="container mb-5" style="max-width: 1200px;">
+        <div class="container mt-5" style="max-width: 1200px;">
             <div class="card shadow border-0" style="background-color: #232F3E;">
                 <div class="card-body p-4 p-md-5 text-center text-white">
                     <h4 class="fw-bold mb-2 text-warning">🎉 ¡Felicidades! Tienes un descuento oculto</h4>
@@ -564,7 +617,6 @@
                 </div>
             </div>
     </main>
-
     <footer class="mt-5">
         <div class="py-4 text-center border-top border-bottom bg-white">
             <p class="mb-2 text-dark">Ver recomendaciones personalizadas</p>
@@ -572,11 +624,9 @@
             <p class="mt-2 mb-0 small text-dark">¿Eres un cliente nuevo? <a href="#"
                     class="text-primary text-decoration-none">Empieza aquí.</a></p>
         </div>
-
         <div class="text-center py-3 bg-footer-top">
             <a href="#" class="text-white text-decoration-none d-block small">Inicio de<br>Página</a>
         </div>
-
         <div class="py-5 border-bottom border-secondary bg-footer-main">
             <div class="container">
                 <div class="row row-cols-2 row-cols-md-4 g-4 text-start text-white">
